@@ -1,0 +1,14 @@
+{
+  "name": "ws-keeper",
+  "version": "1.0.0",
+  "description": "游戏 WebSocket 连接保活服务",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "protobufjs": "^7.4.0",
+    "long": "^5.2.3"
+  }
+}

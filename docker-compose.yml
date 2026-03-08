@@ -1,0 +1,49 @@
+services:
+  youxian-qq-farm-bot-ui:
+    build:
+      context: .
+      dockerfile: core/Dockerfile
+    container_name: youxian-qq-farm-bot-ui
+    restart: unless-stopped
+    environment:
+      ADMIN_PASSWORD: your_strong_password_here
+      TZ: Asia/Shanghai
+      WS_KEEPER_URL: http://youxian-ws-keeper:4000
+      WS_KEEPER_WX_URL: http://youxian-ws-keeper-wx:4001
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./data:/app/core/data
+    depends_on:
+      - youxian-ws-keeper
+      - youxian-ws-keeper-wx
+
+  youxian-ws-keeper:
+    build:
+      context: .
+      dockerfile: ws-keeper/Dockerfile
+    container_name: youxian-ws-keeper
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
+      KEEPER_PORT: "4000"
+      PLATFORM: "qq"
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "4001:4000"
+
+  youxian-ws-keeper-wx:
+    build:
+      context: .
+      dockerfile: ws-keeper/Dockerfile
+    container_name: youxian-ws-keeper-wx
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
+      KEEPER_PORT: "4001"
+      PLATFORM: "wx"
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "4002:4001"

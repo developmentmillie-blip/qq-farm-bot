@@ -1,0 +1,26 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+overrides:
+  '@babel/traverse': 7.26.10
+
+importers:
+
+  .:
+    dependencies:
+      nodemailer:
+        specifier: ^8.0.1
+        version: 8.0.1
+
+packages:
+
+  nodemailer@8.0.1:
+    resolution: {integrity: sha512-5kcldIXmaEjZcHR6F28IKGSgpmZHaF1IXLWFTG+Xh3S+Cce4MiakLtWY+PlBU69fLbRa8HlaGIrC/QolUpHkhg==}
+    engines: {node: '>=6.0.0'}
+
+snapshots:
+
+  nodemailer@8.0.1: {}
